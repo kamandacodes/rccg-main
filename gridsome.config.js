@@ -5,9 +5,9 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Gridsome Minimal Tailwind Starter',
+  siteName: 'The Redeemed Christian Church Of God',
   siteUrl: '',
-  siteDescription: 'A simple starter for Gridsome using TailwindCSS and Markdown',
+  siteDescription: 'Jesus Is Lord',
   templates: {
     Post: '/blog/:title'
   },

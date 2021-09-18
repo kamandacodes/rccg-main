@@ -2,20 +2,26 @@
   <div class="text-gray-900">
 
     <!-- Header & Navigation -->
-    <header class="p-6 flex flex-col md:flex-row items-center justify-between text-center">
-      <strong>
-        <g-link to="/" class="text-2xl">{{ $static.metadata.siteName }}</g-link>
-      </strong>
+    <header class="bg-purple-900 p-6 flex flex-col md:flex-row items-center justify-between text-center">
+      <img src="/rccg.png" width="90px" />
       <nav class="flex gap-x-4 text-gray-600">
-        <g-link class="nav__link" to="/">Home</g-link>
+        <g-link class="nav__link text-white hover:text-red-500" to="/">Home</g-link>
         <g-link class="nav__link" to="/blog/">Blog</g-link>
       </nav>
     </header>
 
     <!-- Page Content -->
-    <main class="p-6">
+    <main class="p-6 min-h-screen">
       <slot/>
     </main>
+    <footer class="bg-purple-900 p-6 flex flex-col md:flex-row items-center justify-between text-center">
+      <img src="/rccg.png" width="90px" />
+      <nav class="flex gap-x-4 text-gray-600">
+        <g-link class="nav__link" to="/">Home</g-link>
+        <g-link class="nav__link" to="/blog/">Blog</g-link>
+      </nav>
+
+    </footer>
 
   </div>
 </template>
